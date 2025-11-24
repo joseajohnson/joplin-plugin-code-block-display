@@ -1,0 +1,11 @@
+.code-block-display-container:hover .code-block-display-clipboard-button {
+    display: none;
+}
+
+.code-block-display-clipboard-button.copied .code-block-display-clipboard-copied {
+    display: none;
+}
+
+.code-block-display-clipboard-button .code-block-display-clipboard-copy {
+    display: none;
+}

@@ -1,0 +1,188 @@
+@page {
+  size: a4;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+li {
+  line-height: 100%;
+  /* change this for tighter spacing */
+  /* default 150% */
+}
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: block;
+  /* max-width: 700px; */
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial;
+  font-size: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.github-markdown-body {
+  display: block;
+  /* max-width: 700px; */
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial;
+}
+
+@media (prefers-color-scheme: dark) {
+  .github-markdown-body table,
+  table tr:nth-child(even) {
+    background-color: #333;
+  }
+  .github-markdown-body table,
+  table tr:nth-child(odd) {
+    background-color: #444;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .github-markdown-body table tr {
+    background-color: var(--bgColor-default);
+    border-top: 1px solid var(--borderColor-muted);
+  }
+
+  .github-markdown-body table tr:nth-child(2n) {
+    background-color: var(--bgColor-muted);
+  }
+}
+
+.info {
+  display: block;
+  text-align: left;
+}
+
+.header {
+  padding-bottom: 10px;
+  display: grid;
+  grid-template-columns: [start] 40px [end-address] auto [end-name] 40px [end];
+}
+
+.name {
+  padding-top: 20px;
+  font-size: 275%;
+  line-height: 150%;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  border: none;
+  text-align: center;
+  margin: 0 0 0 !important;
+  font-weight: bold;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 120%;
+  font-weight: bold;
+  margin: 0 0 0 !important;
+  border-bottom: 1px solid black;
+  margin: 0;
+}
+
+h3 {
+  font-size: 110%;
+  font-weight: bold;
+  margin: 0 0 0 !important;
+  margin: 0;
+  /* text-align: center; */
+  display: grid;
+  /* grid-template-columns: [start] 200px [end-address] auto [end-name] 200px [end]; */
+  /* padding-top: 5px; */
+  padding-bottom: 0px;
+  padding-bottom: 4px;
+}
+
+.github-markdown-body h4,
+h5,
+h4 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+pre {
+  margin-top: 0;
+}
+
+.github-markdown-body h5 {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+ul {
+  font-size: 100%;
+  margin: 0;
+}
+
+
+ul,
+ol {
+  padding: 0 0 0 1rem;
+  margin: 0;
+}
+
+/* assume images are icons */
+/* icons for skills/tools */
+.info img {
+  width: 15px;
+  padding-right: 2px;
+}
+
+/* assume images are icons */
+/* icons for contact info */
+.info a img {
+  width: 12px;
+}
+
+a {
+  color: #0d47a1;
+}
+
+code {
+  color: black;
+}
+
+.subsection-left {
+  justify-self: left;
+  font-size: inherit;
+  font-weight: bold;
+}
+
+.subsection-right {
+  justify-self: right;
+  font-size: inherit;
+  font-weight: bold;
+}
