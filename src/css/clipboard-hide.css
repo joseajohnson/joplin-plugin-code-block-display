@@ -1,3 +1,5 @@
+/* code-block-display/src/css/clipboard-hide.css */
+
 .code-block-display-container:hover .code-block-display-clipboard-button {
     display: none;
 }
@@ -7,5 +9,17 @@
 }
 
 .code-block-display-clipboard-button .code-block-display-clipboard-copy {
+    display: none;
+}
+
+.code-block-display-container:hover .code-block-display-fold-button {
+    display: none;
+}
+
+.code-block-display-fold-button.folded .code-block-display-folded {
+    display: none;
+}
+
+.code-block-display-fold-button .code-block-display-fold {
     display: none;
 }

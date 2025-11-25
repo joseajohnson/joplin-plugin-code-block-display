@@ -1,7 +1,7 @@
 {
   "name": "joplin-plugin-code-block-display",
   "private": false,
-  "version": "1.1.4",
+  "version": "1.1.5",
   "scripts": {
     "dist": "webpack --joplin-plugin-config buildMain && webpack --joplin-plugin-config buildExtraScripts && webpack --joplin-plugin-config createArchive",
     "prepare": "npm run dist",
@@ -10,8 +10,16 @@
   "license": "MIT",
   "keywords": [
     "joplin-plugin",
-    "codeBlockDisplay",
-    "code block display"
+    "CodeBlockDisplay",
+    "code-block-display",
+    "code-block",
+    "code",
+    "highlightjs",
+    "line-number",
+    "copy-code",
+    "syntax-highlight",
+    "language-aware",
+    "code-fold"
   ],
   "author": {
     "name": "joseajohnson"

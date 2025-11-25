@@ -1,5 +1,11 @@
-## 1.1.4
+## 1.1.5
+2025-11-25
+1. Added code folding: a Fold button in the language title bar to collapse/expand the rendered code block while keeping the language label and action buttons visible.
+2. Button placement: moved action buttons (Fold and Copy) into the language header bar for consistent placement and improved UX.
+3. Fixed malformed markup when injecting language header and buttons so the highlighted `<pre><code>` is not nested inside other elements.
 
+## 1.1.4
+2025-11-24
 1. Add support for arbitrary syntax declarations in gated block as Graceful fail on unrecognized languages.
 2. Add label `div` prepended as language to block.
 3. Provided English language translation for labels and comments.
