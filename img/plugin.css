@@ -8,8 +8,6 @@
 
 li {
   line-height: 100%;
-  /* change this for tighter spacing */
-  /* default 150% */
 }
 
 html {
@@ -38,17 +36,18 @@ img {
 
 .github-markdown-body {
   display: block;
-  /* max-width: 700px; */
   margin: 0 auto;
   padding: 0;
   font-family: Arial;
 }
 
 @media (prefers-color-scheme: dark) {
+
   .github-markdown-body table,
   table tr:nth-child(even) {
     background-color: #333;
   }
+
   .github-markdown-body table,
   table tr:nth-child(odd) {
     background-color: #444;
@@ -108,10 +107,7 @@ h3 {
   font-weight: bold;
   margin: 0 0 0 !important;
   margin: 0;
-  /* text-align: center; */
   display: grid;
-  /* grid-template-columns: [start] 200px [end-address] auto [end-name] 200px [end]; */
-  /* padding-top: 5px; */
   padding-bottom: 0px;
   padding-bottom: 4px;
 }

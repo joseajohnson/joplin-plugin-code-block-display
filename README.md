@@ -59,6 +59,7 @@ With support for ~200 languages and themes, see how every language looks like in
 - **Context at a glance:** A visible language label above each rendered block tells readers the language (for multi-language documents this avoids guesswork).
 - **Precise references:** Line numbers make it simple to point to examples or quote exact lines.
 - **Offline & fast:** Runs inside Joplin using bundled `highlight.js`; no external network calls required.
+- **Fold / collapse code blocks:** A new Fold button sits in the language title bar (next to the Copy button) to hide/show the rendered code block while keeping the language label and buttons visible.
 
 ### Key features
 
@@ -68,6 +69,7 @@ With support for ~200 languages and themes, see how every language looks like in
 - Optional line numbering displayed alongside each highlighted block.
 - One-click Copy button with visual feedback (Copied) and clipboard integration.
 - Language label inserted above highlighted blocks using `data-joplin-language` — useful for readers and for consistent styling.
+  - Code folding (collapse/expand) via a Fold button placed in the language title bar; the folded block is hidden but the label and buttons remain visible.
 - Configurable settings (theme, show/hide line numbers, show/hide copy button).
 - Updates rendered note view in response to changes to the Editor.
 
@@ -96,7 +98,8 @@ console.log('hello')
 ```
 ``````
 
-- On render, the plugin highlights the block, shows a language label, and displays a Copy button and optional line numbers.
+- On render, the plugin highlights the block, shows a language label, and displays a Copy button, optional line numbers, and Fold and Copy buttons in the language header.
+  - Click Fold to hide/show the highlighted block while keeping the header visible.
 
 - Settings are available in the plugin settings panel to change the theme, toggle line numbers, and enable/disable the Copy button.
 

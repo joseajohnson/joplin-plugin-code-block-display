@@ -2,21 +2,24 @@
 	"manifest_version": 1,
 	"id": "joseajohnson.JoplinCodeBlockDisplayPlugin",
 	"app_min_version": "2.8",
-	"version": "1.1.4",
+	"version": "1.1.5",
 	"name": "CodeBlockDisplay",
-	"description": "Code block Support for displaying line numbers, one-click copying.",
+	"description": "Code Block presentation: language header, folding, line numbers, one-click copy.",
 	"author": "joseajohnson",
 	"homepage_url": "https://github.com/joseajohnson/joplin-plugin-code-block-display",
 	"repository_url": "https://github.com/joseajohnson/joplin-plugin-code-block-display",
 	"keywords": [
 		"joplin-plugin",
-		"codeBlockDisplay",
-		"code block display",
-		"code block",
+		"CodeBlockDisplay",
+		"code-block-display",
+		"code-block",
 		"code",
-		"highlight",
-		"line number",
-		"copy code"
+		"highlightjs",
+		"line-number",
+		"copy-code",
+		"syntax-highlight",
+		"language-aware",
+		"code-fold"
 	],
 	"categories": []
 }
